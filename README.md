@@ -5,14 +5,16 @@ a single web page.
 
 ## Usage
 
-To run the project, navigate to the root directory and run the `http-server` node
+First of all, run the project you want to test on `localhost` using port `8080`.
+Then, to run the test bed, navigate to the root directory and run the `http-server` node
 module using:
 
 ```bash
 $ http-server -p [chosen-port]
 ```
 
-## Build
+Finally, navigate to the test bed by typing into the browser:
 
-HTML pages compiled from Jade file in the `app/views` folder. `grunt-contrib-jade`
-used for compilation.
+```
+http://localhost:[chosen-port]
+```
