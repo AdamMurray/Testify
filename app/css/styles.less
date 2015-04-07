@@ -2,6 +2,8 @@
 
 @import 'fonts.less';
 
+@linkHoverColor: #EA4C89;
+
 body {
   background-color: #111;
   font-family: 'quicksand';
@@ -9,22 +11,74 @@ body {
 
   h1 {
     font-size: 38px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     text-align: center;
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      transition-duration: .4s;
+
+      &:hover {
+        color: @linkHoverColor;
+      }
+    }
   }
+}
+
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  display: block;
+  opacity: 0.5;
+  background-color: #fff;
+  z-index: 99;
+  text-align: center;
+  background-image: url(/app/css/images/ajax-loader_2.gif);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 20%;
 }
 
 #content-wrapper {
   width: 100%;
   margin: 0 auto;
 
+  #top-menu {
+    text-align: center;
+
+    ul {
+      li {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 15px 20px;
+        text-align: center;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          transition-duration: .4s;
+
+          &:hover {
+            color: @linkHoverColor;
+          }
+        }
+      }
+    }
+  }
+
   .device-wrapper {
     display: inline-block;
     margin: 0 auto;
     vertical-align: top;
-    width: 33%;
     text-align: center;
+    margin-right: 40px;
+    margin-bottom: 40px;
 
     h2 {
       text-align: center;
@@ -43,22 +97,39 @@ body {
 
   .apple-devices {
     padding: @devicesAreaPadding;
-    padding-top: 200px;
+    padding-top: 230px;
     background: #ccc;
     color: #222;
     background-image: url(/app/css/images/apple-logo.png);
     background-repeat: no-repeat;
     background-size: 150px;
     background-position: 50% 40px;
+
+    .device-wrapper {
+      background-color: #111;
+      border-radius: 50px;
+      padding-bottom: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: #fff;
+    }
   }
 
   .android-devices {
     padding: @devicesAreaPadding;
-    padding-top: 200px;
+    padding-top: 230px;
     color: #A4C639;
     background-image: url(/app/css/images/android-logo.png);
     background-repeat: no-repeat;
     background-size: 150px;
     background-position: 50% 40px;
+
+    .device-wrapper {
+      background-color: #414551;
+      border-radius: 20px;
+      padding-bottom: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
 }

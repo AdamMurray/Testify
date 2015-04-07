@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RWD Test Bed</title>
+    <link href="/app/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="/app/css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="content-wrapper">
+      <div id="loading"></div>
+      <h1><a href="/">RWD Test Bed</a></h1>
+      <div id="top-menu">
+        <ul>
+          <li><a href="/MobileDevices">Mobiles</a></li>
+          <li><a href="/TabletDevices">Tablets</a></li>
+          <li><a href="/DesktopDevices">Desktops</a></li>
+        </ul>
+      </div>
+      <div class="apple-devices">
+        <div class="device-wrapper">
+          <h2>iPad 1 / 2</h2>
+          <iframe src="http://localhost:8080" width="768" height="1024"></iframe>
+        </div>
+      </div>
+      <div class="android-devices">   
+        <div class="device-wrapper">
+          <h2>Nexus 7(II)</h2>
+          <iframe src="http://localhost:8080" width="600" height="960"></iframe>
+        </div>
+      </div>
+    </div>
+    <script src="/app/js/lib/jquery/jquery-1.11.2.min.js"></script>
+    <script>
+      $(window).load(function() {
+        $('#loading').hide();
+      });
+    </script>
+  </body>
+</html>

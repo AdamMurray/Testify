@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    title RWD Test Bed
+    
+    link(href="/app/css/reset.css", rel="stylesheet", type="text/css")
+    link(href="/app/css/styles.css", rel="stylesheet", type="text/css")
+
+  body
+  
+    #content-wrapper
+    
+      #loading
+    
+      h1
+        a(href="/") RWD Test Bed
+      
+      #top-menu
+        ul
+          li
+            a(href="/MobileDevices") Mobiles
+          li
+            a(href="/TabletDevices") Tablets
+          li
+            a(href="/DesktopDevices") Desktops
+      
+      block devices
+        
+    script(src="/app/js/lib/jquery/jquery-1.11.2.min.js")
+    
+    script.
+      $(window).load(function() {
+        $('#loading').hide();
+      });
