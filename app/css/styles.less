@@ -1,0 +1,64 @@
+// out: styles.css, compress: true
+
+@import 'fonts.less';
+
+body {
+  background-color: #111;
+  font-family: 'quicksand';
+  color: #eee;
+
+  h1 {
+    font-size: 38px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+
+#content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+
+  .device-wrapper {
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+    width: 33%;
+    text-align: center;
+
+    h2 {
+      text-align: center;
+      font-size: 26px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    iframe {
+      display: inline-block;
+      border: 1px solid #333;
+    }
+  }
+
+  @devicesAreaPadding: 40px;
+
+  .apple-devices {
+    padding: @devicesAreaPadding;
+    padding-top: 200px;
+    background: #ccc;
+    color: #222;
+    background-image: url(/app/css/images/apple-logo.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 50% 40px;
+  }
+
+  .android-devices {
+    padding: @devicesAreaPadding;
+    padding-top: 200px;
+    color: #A4C639;
+    background-image: url(/app/css/images/android-logo.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 50% 40px;
+  }
+}
