@@ -19,6 +19,7 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
-    "grunt-contrib-jade": "^0.14.1"
+    "grunt-contrib-jade": "^0.14.1",
+    "http-server": "^0.8.0"
   }
 }
