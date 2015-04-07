@@ -9,3 +9,5 @@
 * Add designs for each form factor so they look like that kind of phone
 
 * Add menu to select between form factors, i.e. 'All', 'Android', 'Apple', etc.
+
+* Add non-mobile form factors, i.e. various sizes of laptop screens, smartwatch, etc.
