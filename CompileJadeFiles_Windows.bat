@@ -1,0 +1,3 @@
+@echo off
+
+grunt jade

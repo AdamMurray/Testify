@@ -5,6 +5,11 @@ a single web page.
 
 ## Usage
 
+### Command Prompt
+
+This first option involves running commands directly on the CLI. A second option
+below is also available, which involved double-clicking on Windows batch files.
+
 First of all, run the project you want to test on `localhost` using port `8080`.
 Then, to run the test bed, navigate to the root directory and run the `http-server` node
 module using:
@@ -18,6 +23,15 @@ Finally, navigate to the test bed by typing into the browser:
 ```
 http://localhost:[chosen-port]
 ```
+
+### Batch Files (Windows)
+
+Alternatively, the test bed can be run by double-clicking on the batch file
+`RunRWDTestBed_Windows.bat`. This will run the `http-server` in the current directory
+using port `8000`, open a browser tab/window, and navigate to `http://localhost:8000`.
+
+As in the first option, the project you want to test must be running on `localhost`
+port `8080`. This will be configurable in future.
 
 ## Screenshots
 
