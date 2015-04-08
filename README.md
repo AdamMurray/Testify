@@ -7,15 +7,20 @@ a single web page.
 
 ### Command Prompt
 
-This first option involves running commands directly on the CLI. A second option
-below is also available, which involved double-clicking on Windows batch files.
+**Note: NodeJS may need to be installed on your system for the node modules to run**
+
+This first option involves running commands directly on the CLI, and should work
+on all operating systems. A second option
+below is also available, which involves double-clicking on Windows batch files.
+This is, of course, a Windows only option; however, Linux bash files will be added
+soon.
 
 First of all, run the project you want to test on `localhost` using port `8080`.
-Then, to run the test bed, navigate to the root directory and run the `http-server` node
-module using:
+Then, to run the test bed, navigate to the root directory of the test bed
+(`RWDTestBed`) and run the `http-server` node module using:
 
 ```bash
-$ http-server -p [chosen-port]
+> http-server -p [chosen-port]
 ```
 
 Finally, navigate to the test bed by typing into the browser:
