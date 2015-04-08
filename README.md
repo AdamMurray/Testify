@@ -22,7 +22,7 @@ http://localhost:[chosen-port]
 ## Screenshots
 
 ### Apple mobiles
-![alt tag](./screenshots/shot_1.png)
+![alt tag](/screenshots/shot_1.png)
 
 ### Android mobiles
 ![alt tag](./screenshots/shot_2.png)
