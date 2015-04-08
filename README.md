@@ -18,3 +18,24 @@ Finally, navigate to the test bed by typing into the browser:
 ```
 http://localhost:[chosen-port]
 ```
+
+## Screenshots
+
+### Apple mobiles
+![alt tag](./screenshots/shot_1.png)
+
+### Android mobiles
+![alt tag](./screenshots/shot_2.png)
+
+### Android tablets
+![alt tag](./screenshots/shot_3.png)
+
+## Future Improvements
+
+* Ability to choose which site to show via a form when the site is first loaded
+
+* Ability to run site from a shortcut or link
+
+* Improved styles
+
+* Ability to create a new kind of form factor from within the app
