@@ -7,14 +7,21 @@
   </head>
   <body>
     <div id="content-wrapper">
-      <h1>RWD Test Bed</h1>
+      <div id="loading"></div>
+      <h1><a href="/">RWD Test Bed</a></h1>
       <div id="top-menu">
         <ul>
-          <li><a href="/MobileDevices">Mobile</a></li>
-          <li><a href="/TabletDevices">Tablet</a></li>
-          <li><a href="/DesktopDevices">Desktop</a></li>
+          <li><a href="/MobileDevices">Mobiles</a></li>
+          <li><a href="/TabletDevices">Tablets</a></li>
+          <li><a href="/DesktopDevices">Desktops</a></li>
         </ul>
       </div>
     </div>
+    <script src="/app/js/lib/jquery/jquery-1.11.2.min.js"></script>
+    <script>
+      $(window).load(function() {
+        $('#loading').hide();
+      });
+    </script>
   </body>
 </html>
