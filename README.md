@@ -22,13 +22,13 @@ http://localhost:[chosen-port]
 ## Screenshots
 
 ### Apple mobiles
-![alt tag](./screenshots/shot_1.png)
+![alt tag](./screenshots/shot_1.PNG)
 
 ### Android mobiles
-![alt tag](./screenshots/shot_2.png)
+![alt tag](./screenshots/shot_2.PNG)
 
 ### Android tablets
-![alt tag](./screenshots/shot_3.png)
+![alt tag](./screenshots/shot_3.PNG)
 
 ## Future Improvements
 
