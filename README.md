@@ -3,6 +3,29 @@
 A test bed for testing a locally hosted project using multiple form factors on
 a single web page.
 
+## Features
+
+Current features include:
+
+* 6 mobile form factors
+  * Apple
+    * iPhone 4
+    * iPhone 5
+    * iPhone 6
+    * iPhone 6+
+  * Android
+    * Nexus 4 / Samsung Galaxy 4
+    * Nexus 5
+
+
+* 2 tablet form factors, each in portrait and landscape orientation
+  * Apple
+    * iPad 1 / 2
+  * Android
+    * Nexus 7 (II)
+
+New features will be continually added to the project. See Future Improvements below.
+
 ## Usage
 
 ### Command Prompt
@@ -50,6 +73,13 @@ port `8080`. This will be configurable in future.
 ![alt tag](./screenshots/shot_3.PNG)
 
 ## Future Improvements
+
+* Desktop form factors
+
+* More realistic shaped surround styles
+
+* Screen features for various form factors such as info bars and buttons which are
+constantly on screen, in order to make view more realistic
 
 * Ability to choose which site to show via a form when the site is first loaded
 
