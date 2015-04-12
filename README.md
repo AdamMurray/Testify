@@ -1,4 +1,5 @@
-# Responsive Web Design Test Bed
+# Testify
+## The responsive web design test bed
 
 A test bed for testing a locally hosted project using multiple form factors on
 a single web page.
