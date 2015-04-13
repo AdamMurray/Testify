@@ -1,8 +1,30 @@
 # Testify
 ## The responsive web design test bed
 
-A test bed for testing a locally hosted project using multiple form factors on
-a single web page.
+Welcome to **Testify**!
+
+Testify is a little different from other responsive design tools out there. Most
+tools are hosted online, display using only one form factor (i.e. smartphone) at
+at time, and can only display websites already hosted online.
+
+Testify is run locally on your machine, and is primarily used for testing your
+locally hosted website. Internet hosted websites can also be displayed, in theory,
+but for now only a website hosted locally on a specific port can be tested. This
+will be adjustable in future releases.
+
+In addition, the main purpose of Testify is to present multiple form factors at once,
+in order to quickly see any inconsistencies between different screen sizes. For example,
+you may have a responsive site that looks great on a Samsung 4, but which looks a
+bit squashed or uneven on an iPhone 4.
+
+Basically, if you're annoyed with constantly having to switch between form factors
+using the Chrome mobile developer tools, then Testify is for you.
+
+So, come try out Testify. See if it's for you. Tell me what you'd like to see in
+future releases. Right now you can clone the project and run it using the *Usage*
+tutorial below. However, running it will be simpler in future.
+
+Thanks for reading and checking out Testify!
 
 ## Features
 
@@ -25,13 +47,18 @@ Current features include:
   * Android
     * Nexus 7 (II)
 
+
+* 1 laptop form factor
+  * 1280 x 800 screen size (generic notebook)
+
 New features will be continually added to the project. See Future Improvements below.
 
 ## Usage
 
 ### Command Prompt
 
-**Note: NodeJS may need to be installed on your system for the node modules to run**
+**Note: NodeJS will need to be installed on your system for the node modules to run.
+It can be downloaded [here](https://nodejs.org/download/).**
 
 This first option involves running commands directly on the CLI, and should work
 on all operating systems. A second option
