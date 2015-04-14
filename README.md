@@ -60,7 +60,7 @@ New features will be continually added to the project. See Future Improvements b
 
 ### Command Prompt
 
-**Note: NodeJS will need to be installed on your system for the node modules to run.
+**Note: `nodeJS` will need to be installed on your system for the node modules to run.
 It can be downloaded [here](https://nodejs.org/download/).**
 
 This first option involves running commands directly on the CLI, and should work
@@ -69,7 +69,16 @@ below is also available, which involves double-clicking on Windows batch files.
 This is, of course, a Windows only option; however, Linux bash files will be added
 soon.
 
-First of all, run the project you want to test on `localhost` using port `8080`.
+First of all, as stated above, nodeJS will need to be downloaded onto your machine.
+After it is installed, the `http-server` module must be installed **globally** so
+that it can be run from the command line. This can be done via the following command
+(the `-g` flag is for global installation):
+
+```bash
+> npm install http-server -g
+```
+
+Next, run the project you want to test on `localhost` using port `8080`.
 Then, to run the test bed, navigate to the root directory of the test bed
 (`RWDTestBed`) and run the `http-server` node module using:
 
@@ -84,6 +93,10 @@ http://localhost:[chosen-port]
 ```
 
 ### Batch Files (Windows)
+
+[This option also involves installing `nodeJS` and `http-server` globally as described
+above in the *Command Prompt* section. Please follow these instructions first before
+using the batch files.]
 
 Alternatively, the test bed can be run by double-clicking on the batch file
 `RunRWDTestBed_Windows.bat`. This will run the `http-server` in the current directory
