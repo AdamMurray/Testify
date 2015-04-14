@@ -1,6 +1,9 @@
 # Testify
 ## The responsive web design test bed
 
+**IMPORTANT: currently working on a simple way to run the project which should be
+cross-platform and work for all users. I'll remove this notice when that is done.**
+
 Welcome to **Testify**!
 
 Testify is a little different from other responsive design tools out there. Most
