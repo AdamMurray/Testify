@@ -56,7 +56,7 @@ Current features include:
 
 New features will be continually added to the project. See Future Improvements below.
 
-## Usage
+## Installation and Usage
 
 ### Command Prompt
 
